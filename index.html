@@ -395,58 +395,5 @@
   </div>
 
   <script src="js/main.js"></script>
-  <script>
-    const hamburgerBtn = document.getElementById('hamburgerBtn');
-    const mobileDrawer = document.getElementById('mobileDrawer');
-    function toggleMobileMenu() { mobileDrawer.classList.toggle('open'); }
-    if (hamburgerBtn) hamburgerBtn.addEventListener('click', toggleMobileMenu);
-    document.addEventListener('click', function(e) {
-      if (!mobileDrawer.contains(e.target) && !hamburgerBtn.contains(e.target) && mobileDrawer.classList.contains('open')) {
-        mobileDrawer.classList.remove('open');
-      }
-    });
-
-    const navbar = document.getElementById('navbar');
-    const scrollTopBtn = document.getElementById('scrollTopBtn');
-    window.addEventListener('scroll', function() {
-      navbar.classList.toggle('scrolled', window.scrollY > 50);
-      scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
-    });
-    scrollTopBtn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
-
-    const quoteModalOverlay = document.getElementById('quoteModalOverlay');
-    function openQuoteModal(productName) {
-      if (productName) {
-        var s = document.getElementById('modalProduct');
-        for (var i = 0; i < s.options.length; i++) {
-          if (s.options[i].value.toLowerCase().includes(productName.toLowerCase())) { s.selectedIndex = i; break; }
-        }
-      }
-      quoteModalOverlay.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    }
-    function closeQuoteModal() { quoteModalOverlay.classList.remove('active'); document.body.style.overflow = 'auto'; }
-    quoteModalOverlay.addEventListener('click', function(e) { if (e.target === quoteModalOverlay) closeQuoteModal(); });
-    document.addEventListener('keydown', function(e) { if (quoteModalOverlay.classList.contains('active') && e.key === 'Escape') closeQuoteModal(); });
-
-    function handleModalFormSubmit(e) {
-      e.preventDefault();
-      alert('Thank you! Your quote request has been received. Our team will contact you shortly.');
-      closeQuoteModal();
-      document.getElementById('modalQuoteForm').reset();
-    }
-    function sendModalToWhatsApp() {
-      var n = document.getElementById('modalName').value.trim() || 'Client';
-      var p = document.getElementById('modalPhone').value.trim() || 'Not specified';
-      var pr = document.getElementById('modalProduct').value;
-      var l = document.getElementById('modalLocation').value.trim();
-      var q = document.getElementById('modalQuantity').value.trim();
-      var t = '*Shiv Shakti Industry - Quote Request*\n\n*Name:* ' + n + '\n*Phone:* ' + p + '\n*Product:* ' + pr + '\n';
-      if (q) t += '*Quantity:* ' + q + '\n';
-      t += '*Location:* ' + l;
-      window.open('https://wa.me/918825212613?text=' + encodeURIComponent(t), '_blank');
-      closeQuoteModal();
-    }
-  </script>
 </body>
 </html>
