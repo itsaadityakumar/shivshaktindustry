@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Shiv Shakti Industry - Factory, Machinery & Products</title>
+  <meta name="description" content="Take a look inside our manufacturing operations, hydraulic brick machinery, factory yard, and transportation fleet in Telo, Bokaro.">
+  <meta name="author" content="Shiv Shakti Industry">
+  <link rel="icon" type="image/png" href="assets/images/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+  <!-- HEADER -->
+  <header class="navbar" id="navbar"><div class="container navbar-inner"><a href="index.html" class="brand-logo"><div class="brand-logo-img-wrap"><img src="assets/images/logo.jpeg" alt="Shiv Shakti Industry Logo" class="brand-logo-img"></div><div class="brand-text"><span class="brand-title">SHIV SHAKTI INDUSTRY</span><span class="brand-subtitle">Manufacturing &amp; Supply &bull; Est. 2022</span></div></a><nav><ul class="nav-menu"><li><a href="index.html" class="nav-link">Home</a></li><li><a href="products.html" class="nav-link">Products</a></li><li><a href="services.html" class="nav-link">Services</a></li><li><a href="why-us.html" class="nav-link">Why Us</a></li><li><a href="gallery.html" class="nav-link active">Gallery</a></li><li><a href="about.html" class="nav-link">About</a></li><li><a href="contact.html" class="nav-link">Contact</a></li></ul></nav><div class="nav-actions"><button onclick="openQuoteModal()" class="btn btn-primary btn-sm">Get a Quote</button><button class="hamburger-btn" id="hamburgerBtn"><svg class="icon" style="width:28px;height:28px;" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></div></div><div class="mobile-drawer" id="mobileDrawer"><ul class="mobile-menu"><li><a href="index.html" class="nav-link">Home</a></li><li><a href="products.html" class="nav-link">Products</a></li><li><a href="services.html" class="nav-link">Services</a></li><li><a href="why-us.html" class="nav-link">Why Us</a></li><li><a href="gallery.html" class="nav-link active">Gallery</a></li><li><a href="about.html" class="nav-link">About</a></li><li><a href="contact.html" class="nav-link">Contact</a></li></ul><div class="mobile-drawer-actions"><button onclick="openQuoteModal(); toggleMobileMenu();" class="btn btn-primary">Get a Quote</button><a href="https://wa.me/918825212613" target="_blank" class="btn btn-whatsapp"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg> Chat on WhatsApp</a></div></div></header>
+
+  <!-- PAGE HERO -->
+  <section class="hero-section" style="padding:4rem 0 3rem;"><div class="hero-pattern"></div><div class="container" style="position:relative;z-index:3;text-align:center;"><span class="badge-sub" style="background:rgba(255,255,255,0.1);color:#ffb74d;border-color:rgba(255,255,255,0.18);">Our Gallery</span><h1 class="hero-headline" style="font-size:2.5rem;">Our Facility &amp; Products</h1><p class="hero-description" style="max-width:700px;margin:0 auto;">Take a look inside our manufacturing operations, hydraulic brick machinery, factory yard, and transportation fleet in Telo, Bokaro.</p></div></section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section-gallery" style="padding-top:3rem;">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="gallery-item featured" onclick="openLightbox(0)">
+          <img src="assets/images/manufacturing-machine.jpeg" alt="Hydraulic Automatic Brick Machine" class="gallery-img">
+          <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div>
+          <div class="gallery-overlay"><h4 class="gallery-title">Hydraulic Automatic Brick Machine</h4><p class="gallery-caption">Subhadra Enterprises hydraulic press with conveyor belt manufacturing dense fly ash bricks.</p></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(1)">
+          <img src="assets/images/factory-yard.jpeg" alt="Logistics Fleet & Factory Yard" class="gallery-img">
+          <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div>
+          <div class="gallery-overlay"><h4 class="gallery-title">Transportation Fleet &amp; Yard</h4><p class="gallery-caption">Company-owned commercial tipper trucks in our Telo yard ready for site delivery.</p></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(2)">
+          <img src="assets/images/manufacturing-machine.jpeg" alt="Plant Operations and Conveyor System" class="gallery-img" style="object-position:top;">
+          <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div>
+          <div class="gallery-overlay"><h4 class="gallery-title">Automated Hydraulic Conveyor</h4><p class="gallery-caption">Hydraulic pressing ensuring uniform dimensional tolerance and high compaction.</p></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(3)">
+          <img src="assets/images/flyashbrick.jpg" alt="Fly Ash Bricks Production" class="gallery-img">
+          <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div>
+          <div class="gallery-overlay"><h4 class="gallery-title">Fly Ash Bricks Production</h4><p class="gallery-caption">High-quality fly ash bricks manufactured with automated hydraulic pressing.</p></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(4)">
+          <img src="assets/images/paver-blocks-yard.jpeg" alt="Paver Blocks Yard" class="gallery-img">
+          <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div>
+          <div class="gallery-overlay"><h4 class="gallery-title">Paver Blocks Stockyard</h4><p class="gallery-caption">Wide range of interlocking paver blocks ready for dispatch.</p></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(5)">
+          <img src="assets/images/ceoPhoto.jpeg" alt="CEO Shiv Shakti Industry" class="gallery-img">
+          <div class="gallery-zoom-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div>
+          <div class="gallery-overlay"><h4 class="gallery-title">Ajay Kumar - CEO</h4><p class="gallery-caption">Leading Shiv Shakti Industry with vision and dedication since 2022.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image gallery viewer">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close image viewer">&times;</button>
+      <button class="lightbox-nav lightbox-prev" onclick="changeLightbox(-1)" aria-label="Previous image"><svg class="icon" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+      <button class="lightbox-nav lightbox-next" onclick="changeLightbox(1)" aria-label="Next image"><svg class="icon" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="section-cta"><div class="container"><div class="cta-inner"><div class="cta-content"><h2>Visit Our Factory</h2><p>Schedule a visit to our manufacturing plant in Telo, Bokaro to see our operations firsthand.</p></div><div class="cta-buttons"><a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a><a href="https://wa.me/918825212613" target="_blank" class="btn btn-whatsapp btn-lg">WhatsApp Us</a></div></div></div></section>
+
+  <!-- FOOTER -->
+  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html" class="brand-logo" style="margin-bottom:1rem;"><div class="brand-logo-img-wrap" style="width:48px;height:48px;"><img src="assets/images/logo.jpeg" alt="Logo" class="brand-logo-img"></div><div class="brand-text"><span class="brand-title" style="font-size:1.15rem;">SHIV SHAKTI INDUSTRY</span><span class="brand-subtitle">Est. 2022 &bull; Bokaro, Jharkhand</span></div></a><p>Quality Construction Materials. Reliable Supply. Trusted Service.</p><div class="footer-gst-box"><span><strong>GSTIN:</strong> 20FRVPK5409L1ZC</span><br><span style="color:#10b981;font-weight:600;">100% Eco-Friendly Certified</span></div></div><div class="footer-col"><h4>Quick Navigation</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="services.html">Services</a></li><li><a href="why-us.html">Why Choose Us</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div><div class="footer-col"><h4>Our Materials</h4><ul class="footer-links"><li><a href="products.html">Fly Ash Bricks</a></li><li><a href="products.html">Paver Blocks</a></li><li><a href="products.html">Parking Tiles</a></li><li><a href="products.html">Boundary Wall</a></li><li><a href="products.html">Cement Supply</a></li><li><a href="services.html">Transportation</a></li></ul></div><div class="footer-col"><h4>Plant Location</h4><p style="font-size:0.88rem;line-height:1.6;color:#94a3b8;margin-bottom:1rem;">Agardih, College Road, Telo, Bokaro, Jharkhand - 828403</p><p style="font-size:0.88rem;color:#ffffff;margin-bottom:0.4rem;"><strong>Phone:</strong> <a href="tel:8825212613" style="color:#cbd5e1;">+91 88252 12613</a></p><p style="font-size:0.88rem;color:#ffffff;margin-bottom:1rem;"><strong>WhatsApp:</strong> <a href="https://wa.me/918825212613" target="_blank" style="color:#25d366;">+91 88252 12613</a></p><div class="footer-socials"><a href="https://wa.me/918825212613" target="_blank" class="social-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a><a href="tel:8825212613" class="social-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a></div></div></div><div class="footer-bottom"><div>&copy; 2026 Shiv Shakti Industry. All Rights Reserved.</div><div style="display:flex;gap:1.5rem;"><a href="index.html" style="color:#64748b;">Privacy Policy</a><a href="contact.html" style="color:#64748b;">GST Verification</a></div></div></div></footer>
+
+  <!-- QUOTE MODAL -->
+  <div class="quote-modal-overlay" id="quoteModalOverlay"><div class="quote-modal-box"><button class="quote-modal-close" onclick="closeQuoteModal()">&times;</button><div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;"><div style="width:40px;height:40px;border-radius:50%;border:2px solid var(--gold);overflow:hidden;background:#fff;"><img src="assets/images/logo.jpeg" alt="Logo" style="width:100%;height:100%;object-fit:cover;"></div><div><h3 style="font-family:var(--font-heading);font-size:1.35rem;color:var(--primary);line-height:1.1;">Request Instant Quote</h3><span style="font-size:0.75rem;color:var(--accent);font-weight:700;">SHIV SHAKTI INDUSTRY</span></div></div><form id="modalQuoteForm" onsubmit="handleModalFormSubmit(event)"><div class="form-group"><label class="form-label" for="modalName">Your Name <span class="required">*</span></label><input type="text" id="modalName" class="form-control" required></div><div class="form-group"><label class="form-label" for="modalPhone">Phone <span class="required">*</span></label><input type="tel" id="modalPhone" class="form-control" required></div><div class="form-group"><label class="form-label" for="modalProduct">Product <span class="required">*</span></label><select id="modalProduct" class="form-control" required><option value="Fly Ash Bricks">Fly Ash Bricks</option><option value="Paver Blocks">Paver Blocks</option><option value="Cement / Parking Tiles">Parking Tiles</option><option value="Concrete Cover Blocks">Cover Blocks</option><option value="Complete Boundary Plate & Pole">Boundary Wall</option><option value="Cement Supply">Cement Supply</option><option value="Transportation Service">Transportation</option></select></div><div class="form-group"><label class="form-label" for="modalLocation">Delivery Location <span class="required">*</span></label><input type="text" id="modalLocation" class="form-control" required></div><div class="form-group"><label class="form-label" for="modalQuantity">Quantity</label><input type="text" id="modalQuantity" class="form-control"></div><div style="display:flex;gap:0.75rem;margin-top:1.25rem;"><button type="submit" class="btn btn-primary" style="flex:1;">Submit</button><button type="button" onclick="sendModalToWhatsApp()" class="btn btn-whatsapp" style="flex:1;"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg> WhatsApp</button></div></form></div></div>
+
+  <div class="floating-actions"><button class="scroll-top-btn" id="scrollTopBtn"><svg class="icon" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg></button><a href="https://wa.me/918825212613" target="_blank" class="fab-btn fab-whatsapp"><svg class="icon" style="width:28px;height:28px;" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a><a href="tel:8825212613" class="fab-btn fab-call"><svg class="icon" style="width:24px;height:24px;" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a></div>
+
+  <script src="js/main.js"></script>
+  <script>
+    var galleryData=[{src:'assets/images/manufacturing-machine.jpeg',title:'Hydraulic Automatic Brick Press Machine',caption:'Automated hydraulic machine producing precision fly ash bricks.'},{src:'assets/images/factory-yard.jpeg',title:'Logistics Fleet & Plant Yard',caption:'Commercial tippers parked in our plant yard ready for dispatch.'},{src:'assets/images/manufacturing-machine.jpeg',title:'High Compressive Density Conveyor Feed',caption:'Uniform compaction and sharp edge finish by hydraulic pressure.'},{src:'assets/images/flyashbrick.jpg',title:'Fly Ash Bricks Production',caption:'High-quality fly ash bricks manufactured with automated pressing.'},{src:'assets/images/paver-blocks-yard.jpeg',title:'Paver Blocks Stockyard',caption:'Wide range of interlocking paver blocks ready for dispatch.'},{src:'assets/images/ceoPhoto.jpeg',title:'Ajay Kumar - CEO',caption:'Leading Shiv Shakti Industry with vision and dedication since 2022.'}];
+    var currentLightboxIdx=0,lightboxModal=document.getElementById('lightboxModal'),lightboxImg=document.getElementById('lightboxImg'),lightboxCaption=document.getElementById('lightboxCaption');
+    function openLightbox(idx){currentLightboxIdx=idx;updateLightboxContent();lightboxModal.classList.add('active');document.body.style.overflow='hidden';}
+    function closeLightbox(){lightboxModal.classList.remove('active');document.body.style.overflow='auto';}
+    function changeLightbox(dir){currentLightboxIdx=(currentLightboxIdx+dir+galleryData.length)%galleryData.length;updateLightboxContent();}
+    function updateLightboxContent(){var item=galleryData[currentLightboxIdx];lightboxImg.src=item.src;lightboxImg.alt=item.title;lightboxCaption.innerHTML='<strong>'+item.title+'</strong><br><span style="font-size:0.85rem;color:#cbd5e1;">'+item.caption+'</span>';}
+    document.addEventListener('keydown',function(e){if(lightboxModal.classList.contains('active')){if(e.key==='Escape')closeLightbox();if(e.key==='ArrowLeft')changeLightbox(-1);if(e.key==='ArrowRight')changeLightbox(1);}});
+    lightboxModal.addEventListener('click',function(e){if(e.target===lightboxModal)closeLightbox();});
+
+    var h=document.getElementById('hamburgerBtn'),m=document.getElementById('mobileDrawer');
+    function toggleMobileMenu(){m.classList.toggle('open');}
+    if(h)h.addEventListener('click',toggleMobileMenu);
+    document.addEventListener('click',function(e){if(!m.contains(e.target)&&!h.contains(e.target)&&m.classList.contains('open'))m.classList.remove('open');});
+    var nb=document.getElementById('navbar'),st=document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll',function(){nb.classList.toggle('scrolled',window.scrollY>50);st.classList.toggle('visible',window.scrollY>400);});
+    st.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+    var qo=document.getElementById('quoteModalOverlay');
+    function openQuoteModal(pn){if(pn){var s=document.getElementById('modalProduct');for(var i=0;i<s.options.length;i++){if(s.options[i].value.toLowerCase().includes(pn.toLowerCase())){s.selectedIndex=i;break;}}}qo.classList.add('active');document.body.style.overflow='hidden';}
+    function closeQuoteModal(){qo.classList.remove('active');document.body.style.overflow='auto';}
+    qo.addEventListener('click',function(e){if(e.target===qo)closeQuoteModal();});
+    document.addEventListener('keydown',function(e){if(qo.classList.contains('active')&&e.key==='Escape')closeQuoteModal();});
+    function handleModalFormSubmit(e){e.preventDefault();alert('Thank you! Your quote request has been received.');closeQuoteModal();document.getElementById('modalQuoteForm').reset();}
+    function sendModalToWhatsApp(){var n=document.getElementById('modalName').value.trim()||'Client',p=document.getElementById('modalPhone').value.trim(),pr=document.getElementById('modalProduct').value,l=document.getElementById('modalLocation').value.trim(),q=document.getElementById('modalQuantity').value.trim(),t='*Quote Request*\n\n*Name:* '+n+'\n*Phone:* '+p+'\n*Product:* '+pr+'\n';if(q)t+='*Quantity:* '+q+'\n';t+='*Location:* '+l;window.open('https://wa.me/918825212613?text='+encodeURIComponent(t),'_blank');closeQuoteModal();}
+  </script>
+</body>
+</html>
