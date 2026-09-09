@@ -1,0 +1,11 @@
+# Robots.txt for Shiv Shakti Industry
+# https://shivshaktiindustry.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://shivshaktiindustry.vercel.app/sitemap.xml
+
+# Disallow unnecessary pages
+Disallow: /index 2.html
